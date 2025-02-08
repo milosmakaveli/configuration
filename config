@@ -1,0 +1,5 @@
+font-family = "FantasqueSansM Nerd"
+font-size = 11
+adw-toolbar-style = flat
+theme = Adwaita Dark
+window-theme = ghostty
