@@ -1,0 +1,5 @@
+font-family = "FantasqueSansM Nerd"
+font-size = 11
+theme = "Breeze"
+gtk-titlebar = false
+gtk-adwaita = false
