@@ -3,3 +3,7 @@ curl -fsSL https://fnm.vercel.app/install | bash
 
 #Setting up fnm to work with fish shell
 fnm env --use-on-cd --shell fish | source
+
+# Completions
+fnm completions --shell=fish > ~/.config/fish/completions/fnm.fish
+
