@@ -1,0 +1,5 @@
+#Intalling fnm
+curl -fsSL https://fnm.vercel.app/install | bash
+
+#Setting up fnm to work with fish shell
+fnm env --use-on-cd --shell fish | source
