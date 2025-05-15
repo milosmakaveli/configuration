@@ -1,6 +1,6 @@
 font-family = "FantasqueSansM Nerd"
 font-size = 11
 adw-toolbar-style = flat
-theme = "Apple System Colors"
+theme = "rose-pine-moon"
 shell-integration = "fish"
 window-theme = ghostty
