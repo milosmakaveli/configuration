@@ -1,5 +1,6 @@
-font-family = "FantasqueSansM Nerd"
+font-family = "JetBrainsMono Nerd Font"
 font-size = 11
+background = 000000
 adw-toolbar-style = flat
 theme = "rose-pine-moon"
 shell-integration = "fish"
