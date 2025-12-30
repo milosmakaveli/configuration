@@ -10,3 +10,4 @@ alias grep='grep --color=auto'
 alias vi='vim'
 PS1='[\u@\h \W]\$ '
 eval "$(starship init bash)"
+eval "$(zoxide init bash)"
