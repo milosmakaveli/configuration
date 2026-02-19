@@ -1,6 +1,6 @@
 font-family = "JetBrainsMono Nerd Font"
 font-size = 12
-theme = Rose Pine Moon
+theme = "Rose Pine Moon"
 background = 000000
 background-opacity = 0.95
 shell-integration = "bash"
