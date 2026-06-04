@@ -1,0 +1,15 @@
+#Update system
+sudo pacman -Syu
+
+#Install qmeu and kvm packages
+sudo pacman -S --needed qemu-desktop virt-manager virt-viewer libvirt \
+    edk2-ovmf dnsmasq iptables-nft swtpm
+
+#Enable libvirtd service and adding user to libvirt group
+sudo systemctl enable --now libvirtd.service
+sudo usermod -aG libvirt $(whoami)
+
+#Enable default Network
+sudo virsh net-autostart default
+sudo virsh net-start default
+
