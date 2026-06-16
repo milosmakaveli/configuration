@@ -1,0 +1,27 @@
+#Update system
+sudo pacman -Syu reflector
+
+#Backup original mirrorlist
+sudo cp /etc/pacman.d/mirrorlist /etc/pacman.d/mirrorlist.bak
+
+
+#Rate mirrors
+sudo reflector --latest 20 --protocol https --sort rate --save /etc/pacman.d/mirrorlist
+
+
+#Check relfector.conf
+sudo nano /etc/xdg/reflector/reflector.conf
+
+#Should have something like this
+--latest 20
+--protocol https
+--sort rate
+--save /etc/pacman.d/mirrorlist
+--download-timeout 15
+--verbose
+
+#Weekly run
+sudo systemctl enable --now reflector.timer
+
+#Run on every boot
+sudo systemctl enable --now reflector.service
