@@ -5,3 +5,4 @@ background-opacity = 0.95
 theme = "Rose Pine Moon"
 shell-integration = "bash"
 window-theme = ghostty
+shell-integration-features = "ssh-terminfo,ssh-env"
